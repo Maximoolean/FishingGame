@@ -9,7 +9,7 @@ Controls
 - To sell your fish move to the dock and your fish will be sold automatically.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/LiQP1JcVnIU)
 
 # Development Environment
 
