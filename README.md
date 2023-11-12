@@ -4,9 +4,9 @@ This is a project I created to help me learn the Godot Engine and its workflow
 The game I created is a simple fishing game where you can move a player around a lake and fish in designated areas.
 
 Controls
-    To move the player character use the WASD or arrow keys.
-    To fish, move to a spot where fish can be seen and press E.
-    To sell your fish move to the dock and your fish will be sold automatically.
+- To move the player character use the WASD or arrow keys.
+- To fish, move to a spot where fish can be seen and press E.
+- To sell your fish move to the dock and your fish will be sold automatically.
 
 
 [Software Demo Video](http://youtube.link.goes.here)
