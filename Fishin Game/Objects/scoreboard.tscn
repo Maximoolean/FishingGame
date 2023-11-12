@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cd5gx87kfjnkb"]
+
+[ext_resource type="Script" path="res://scenes/Money_Count.gd" id="2_aagpv"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="MoneyCount" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+horizontal_alignment = 2
+script = ExtResource("2_aagpv")
