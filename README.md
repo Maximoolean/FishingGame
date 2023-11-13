@@ -10,6 +10,7 @@ Controls
 
 
 [Software Demo Video](https://youtu.be/LiQP1JcVnIU)
+[Game Update Video](https://youtu.be/p89E1RmMjJQ)
 
 # Development Environment
 
