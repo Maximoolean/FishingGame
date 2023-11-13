@@ -13,6 +13,7 @@ func _process(_delta):
 		Input.get_action_strength("down") - Input.get_action_strength("up")
 	)
 	
+	# Flip player sprite to fit the direction
 	if input_direction.x < 0:
 		flip_h = true
 	elif input_direction.x > 0:

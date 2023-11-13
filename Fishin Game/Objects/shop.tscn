@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://dv7bntnqgftx4"]
+
+[ext_resource type="PackedScene" uid="uid://bfyv54tw65x76" path="res://Objects/shop_interface.tscn" id="1_p7ca5"]
+
+[sub_resource type="GDScript" id="GDScript_3vfnb"]
+script/source = "extends Area2D
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j64by"]
+radius = 18.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vmowg"]
+size = Vector2(5, 4.5)
+
+[node name="Shop" type="StaticBody2D"]
+
+[node name="Area2D" type="Area2D" parent="." groups=["shop"]]
+script = SubResource("GDScript_3vfnb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_j64by")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_vmowg")
+
+[node name="Shop Interface" parent="." instance=ExtResource("1_p7ca5")]
+position = Vector2(-10, -16)
+scale = Vector2(0.15077, 0.15077)
